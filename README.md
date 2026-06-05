@@ -130,15 +130,15 @@ After running the pipeline, these images are displayed below.
 ### Model Comparison
 
 ![Model Comparison](assets/images/model_comparison.png)
+##  Application Screenshots
 
-### Feature Importance
+### Home Page
 
-![Feature Importance](assets/images/feature_importance.png)
+![Home Page](screenshots/bg.png)
 
-### Screenshots
+### Prediction Example
 
-![screenshots](screenshots/images/bg1.png)
-![screenshots](screenshots/images/mental_healthbg.png)
+![Prediction Result](screenshots/mental_healthbg.png)
 
 
 
