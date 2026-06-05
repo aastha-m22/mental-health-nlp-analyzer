@@ -135,11 +135,12 @@ After running the pipeline, these images are displayed below.
 
 ![Feature Importance](assets/images/feature_importance.png)
 
-### SHAP Summary
+### Screenshots
 
-![SHAP Summary](assets/images/shap_summary.png)
+![screenshots](screenshots/images/bg1.png)
+![screenshots](screenshots/images/mental_healthbg.png)
 
-## Error Analysis
+
 
 Detailed error analysis is documented in [docs/error_analysis.md](docs/error_analysis.md).
 
