@@ -134,11 +134,11 @@ After running the pipeline, these images are displayed below.
 
 ### Home Page
 
-![Home Page](screenshots/bg.png)
+![Home Page](screenshots/mental_healthbg.png)
 
 ### Prediction Example
 
-![Prediction Result](screenshots/mental_healthbg.png)
+![Prediction Result](screenshots/bg1.png)
 
 
 
