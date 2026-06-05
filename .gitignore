@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data (large files — store with Git LFS or separately)
+data/raw/*.csv
+data/processed/*.csv
+
+# Models (large binary files)
+models/*.pkl
+models/feature_extractors/*.pkl
+models/*.model
+
+# Figures (auto-generated)
+models/figures/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+secrets.py
