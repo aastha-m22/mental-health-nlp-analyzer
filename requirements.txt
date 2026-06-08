@@ -8,3 +8,4 @@ textblob
 joblib
 matplotlib
 wordcloud
+contractions
