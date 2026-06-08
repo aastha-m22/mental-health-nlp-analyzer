@@ -66,6 +66,10 @@ flowchart TD
     J --> K[SHAP Explainability]
     K --> L[Streamlit Deployment]
 ```
+## Live Demo
+
+Streamlit App:
+https://https://mental-health-nlp-analyzer-vcuprf56cwivxlay5xo6qq.streamlit.app
 
 ## Feature Engineering
 
