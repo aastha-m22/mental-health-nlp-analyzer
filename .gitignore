@@ -17,6 +17,7 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb
+!notebooks/mental_health_nlp_analyzer.ipynb
 
 # Data (large files — store with Git LFS or separately)
 data/raw/*.csv
