@@ -69,7 +69,7 @@ flowchart TD
 ## Live Demo
 
 Streamlit App:
-https://https://mental-health-nlp-analyzer-vcuprf56cwivxlay5xo6qq.streamlit.app
+https://mental-health-nlp-analyzer-vcuprf56cwivxlay5xo6qq.streamlit.app/#key-contributing-words
 
 ## Feature Engineering
 
