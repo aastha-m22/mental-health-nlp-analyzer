@@ -22,7 +22,7 @@ from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.pipeline import Pipeline
 from scipy.sparse import hstack, csr_matrix
 
-from gensim.models import Word2Vec
+
 from textblob import TextBlob
 
 logger = logging.getLogger(__name__)
@@ -128,7 +128,7 @@ class TFIDFExtractor:
 # ══════════════════════════════════════════════════════════════════
 # 3. WORD2VEC (mean-pooled sentence embeddings)
 # ══════════════════════════════════════════════════════════════════
-class Word2VecExtractor:
+'''class Word2VecExtractor:
     """
     Word2Vec: trains on the corpus, then represents each text as
     the mean of its word vectors.
@@ -143,6 +143,7 @@ class Word2VecExtractor:
     """
 
     def __init__(
+        
         self,
         vector_size: int = 100,
         window: int = 5,
@@ -206,7 +207,7 @@ class Word2VecExtractor:
         """Explore semantic neighbours of a word."""
         if self.model and word in self.model.wv:
             return self.model.wv.most_similar(word, topn=topn)
-        return []
+        return []'''
 
 
 # ══════════════════════════════════════════════════════════════════
@@ -284,7 +285,7 @@ class FeatureBuilder:
 
     def __init__(self, use_tfidf: bool = True, use_w2v: bool = False):
         self.tfidf = TFIDFExtractor(max_features=5000, ngram_range=(1, 2))
-        self.w2v = Word2VecExtractor() if use_w2v else None
+        self.w2v = None
         self.use_tfidf = use_tfidf
         self.use_w2v = use_w2v
 
@@ -355,9 +356,9 @@ if __name__ == "__main__":
     X_tfidf = tfidf.fit_transform(texts)
     print("TF-IDF shape:", X_tfidf.shape)
 
-    w2v = Word2VecExtractor(vector_size=50, min_count=1)
+    '''w2v = Word2VecExtractor(vector_size=50, min_count=1)
     X_w2v = w2v.fit_transform(tokenized)
-    print("Word2Vec shape:", X_w2v.shape)
+    print("Word2Vec shape:", X_w2v.shape)'''
 
     sent = extract_sentiment_features(texts)
     print("Sentiment features:\n", sent)
