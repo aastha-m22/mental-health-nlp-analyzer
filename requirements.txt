@@ -1,35 +1,10 @@
-# Core
-numpy>=2.2.0
-pandas>=2.2.3
-scikit-learn>=1.6.1
-scipy>=1.15.2
-
-# NLP
-nltk>=3.9.1
-spacy>=3.8.4
-gensim>=4.3.3
-textblob>=0.19.0
-contractions>=0.1.73
-
-# Models
-xgboost>=2.1.4
-imbalanced-learn>=0.13.0
-
-# Deep Learning
-torch>=2.6.0
-transformers>=4.49.0
-
-# Explainability
-shap>=0.47.1
-matplotlib>=3.10.1
-seaborn>=0.13.2
-wordcloud>=1.9.4
-
-# Deployment
-streamlit>=1.43.0
-flask>=3.1.0
-
-# Utilities
-joblib>=1.4.2
-tqdm>=4.67.1
-python-dotenv>=1.0.1
+streamlit
+numpy
+pandas
+scikit-learn
+scipy
+nltk
+textblob
+joblib
+matplotlib
+wordcloud
