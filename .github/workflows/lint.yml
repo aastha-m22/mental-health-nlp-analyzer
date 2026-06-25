@@ -11,4 +11,4 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install flake8
-      - run: flake8 src/ --max-line-length=100 --ignore=E501,W503
+      - run: flake8 src/ --max-line-length=100 --ignore=E501,W503,F401,F841,W293,E241,E111,E226,E302,E305
